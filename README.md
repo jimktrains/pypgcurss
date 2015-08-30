@@ -1,4 +1,10 @@
-PyPgCurses is intended to be a tool to help explore databases and write queries.
+PyPgCurses is intended to be a command-line (curses-based) tool to help explore databases and write queries.
+
+# Features I would like
+
+* Syntax Highlighting (bonus points if I can get explain output to be colorized somehow)
+* Integrated help to look up functions
+* Smart tab completion
 
 # First Draft UI
 
@@ -44,3 +50,4 @@ Arrow Keys would be used to move between the 3 panes in command mode.
     :cd :cursordoc - Shows help for the key-word under the cursor. (I would like to import pg, postgis, and pgrouting docs) (Results would appear in the query results window.)
     :e :explain - Shows the explain for the query
     :ea :explain analyse - Shows the explain analyse for the query
+    :q :quit - Exit the application
